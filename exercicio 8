@@ -1,0 +1,25 @@
+<?php
+
+print"Informe o valor do primeiro produto ";
+
+$produto1 = fgets (STDIN);
+ 
+print"Informe o valor do segundo produto ";
+
+$produto2 = fgets (STDIN);
+
+print"Informe o valor do terceiro produto ";
+
+$produto3 = fgets (STDIN);
+
+if( $produto1 > $produto2 and $produto3 > $produto2){
+    print"O melhor valor encontrado é o segundo produto, tendo valor de $produto2 reais";
+}
+
+if( $produto3 > $produto1 and $produto2 > $produto1){
+    print"O melhor valor encontrado é o primeiro produto, tendo valor de $produto1 reais";
+}
+
+if( $produto2 > $produto3 and $produto1 > $produto3){
+    print"O melhor valor encontrado é o terceiro produto, tendo valor de $produto3 reais";
+}
