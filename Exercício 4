@@ -1,0 +1,16 @@
+<?php
+
+    print "Insira a letra: ";
+    $aa = ( string ) fgetc (STDIN);
+
+
+    if ($aa == 'A' or $aa == 'E' or $aa == 'I' or $aa == 'O' or $aa == 'U' or $aa == 'a' or $aa == 'a' or $aa == 'e' or $aa == 'i' or $aa == 'o' or $aa == 'u')
+
+    {
+     print "Vogal \n\n";
+    }
+
+    else 
+    {
+        print "consoante \n\n";
+    }
