@@ -14,25 +14,13 @@ $num3 = fgets (STDIN);
 
 
 if($num1 > $num2 and $num2 > $num3){
-    print "O maior número é $num1 e o menor é $num3";
+    print "O maior número é $num1";
 }
 
 if($num3 > $num2 and $num2 > $num1){
-    print "O maior número é $num3 e o menor é $num1";
+    print "O maior número é $num3";
 }
 
 if($num2 > $num1 and $num1 > $num3){
-    print "O maior número é $num2 e o menor é $num3";
-}
-
-if($num3 > $num1 and $num1 > $num2){
-    print "O maior número é $num3 e o menor é $num2";
-}
-
-if($num1 > $num3 and $num3 > $num2){
-    print "O maior número é $num1 e o menor é $num2";
-}
-
-if($num2 > $num3 and $num3 > $num1){
-    print "O maior número é $num2 e o menor é $num1";
+    print "O maior número é $num2";
 }
