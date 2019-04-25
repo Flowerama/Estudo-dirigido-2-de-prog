@@ -1,0 +1,23 @@
+<?php
+
+    print "A qual sexo você pertence? F/M: ";
+    $s = (string) fgetc (STDIN);
+
+    
+    if ($s == 'F' or $s == 'f' )
+
+    {
+        print "Feminino \n\n";
+    }
+
+    elseif ($s == 'M' or $s == 'm' )
+
+    {
+        print "Masculino \n\n";
+    }
+
+    else 
+
+    {
+        print "Informação errada \n\n";
+    }
