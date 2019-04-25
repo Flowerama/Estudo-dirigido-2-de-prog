@@ -1,0 +1,75 @@
+<?php
+
+print"Escolha o primeiro número";
+
+$num1 = fgets (STDIN);
+
+print"Escolha o segundo número";
+
+$num2 = fgets (STDIN);
+
+print"Escolha o terceiro número";
+
+$num3 = fgets (STDIN);
+
+
+if($num1 > $num2 and $num2 > $num3){
+    print "A ordem descrecente dos números ditos é $num3, $num2 e $num1";
+}
+
+if($num3 > $num2 and $num2 > $num1){
+    print "A ordem descrecente dos números ditos é $num1, $num2 e $num3";
+}
+
+if($num2 > $num1 and $num1 > $num3){
+    print"A ordem descrecente dos números ditos é $num3, $num1 e $num2";
+}
+
+if($num3 > $num1 and $num1 > $num2){
+    print "A ordem descrecente dos números ditos é $num2, $num1 e $num3";
+}
+
+if($num1 > $num3 and $num3 > $num2){
+    print "A ordem descrecente dos números ditos é $num2, $num3 e $num1";
+}
+<?php
+
+print"Escolha o primeiro número";
+
+$num1 = fgets (STDIN);
+
+print"Escolha o segundo número";
+
+$num2 = fgets (STDIN);
+
+print"Escolha o terceiro número";
+
+$num3 = fgets (STDIN);
+
+
+if($num1 > $num2 and $num2 > $num3){
+    print "A ordem descrecente dos números ditos é $num3, $num2 e $num1";
+}
+
+if($num3 > $num2 and $num2 > $num1){
+    print "A ordem descrecente dos números ditos é $num1, $num2 e $num3";
+}
+
+if($num2 > $num1 and $num1 > $num3){
+    print"A ordem descrecente dos números ditos é $num3, $num1 e $num2";
+}
+
+if($num3 > $num1 and $num1 > $num2){
+    print "A ordem descrecente dos números ditos é $num2, $num1 e $num3";
+}
+
+if($num1 > $num3 and $num3 > $num2){
+    print "A ordem descrecente dos números ditos é $num2, $num3 e $num1";
+}
+
+if($num2 > $num3 and $num3 > $num1){
+    print "A ordem descrecente dos números ditos é $num1, $num3 e $num2";
+}
+if($num2 > $num3 and $num3 > $num1){
+    print "A ordem descrecente dos números ditos é $num1, $num3 e $num2";
+}
